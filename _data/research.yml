@@ -1,0 +1,16 @@
+- code: "01"
+  short: WAM
+  title: World–action modeling
+  description: Connecting predictive models of the world with action generation and decision-making.
+- code: "02"
+  short: VLA
+  title: Vision · language · action
+  description: Grounding visual perception and language in robust, adaptable robot behavior.
+- code: "03"
+  short: World models
+  title: Learning physical dynamics
+  description: Modeling how environments evolve to support prediction, planning, and interaction.
+- code: "04"
+  short: Embodied AI
+  title: Intelligence through interaction
+  description: Bringing perception, reasoning, and control together in embodied systems.

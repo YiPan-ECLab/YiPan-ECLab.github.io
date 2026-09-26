@@ -1,0 +1,85 @@
+[
+  {
+    "id": "vla-corrector",
+    "title": "VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon",
+    "authors": [
+      "Yi Pan",
+      "Miao Pan",
+      "Qi Lu",
+      "Jiaming Huang",
+      "Man Zhang",
+      "Siteng Huang",
+      "Xin Li",
+      "Jie Zhang",
+      "Yongliang Shen",
+      "Xuhong Zhang",
+      "Wenqi Zhang"
+    ],
+    "date": "2026-09-25",
+    "year": 2026,
+    "venue": "NeurIPS 2026",
+    "status": "Poster",
+    "url": "https://arxiv.org/abs/2607.01804",
+    "summary": "A lightweight inference-time monitor detects execution drift and triggers corrective replanning, giving action-chunked VLA policies an adaptive action horizon.",
+    "tags": [
+      "VLA",
+      "Embodied AI"
+    ],
+    "links": [
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=ro5UbANNbJ"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2607.01804"
+      },
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2607.01804"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/ZJU-OmniAI/vla-corrector"
+      },
+      {
+        "label": "Project",
+        "url": "https://zju-omniai.github.io/vla-corrector/"
+      }
+    ],
+    "bibtex": "@inproceedings{pan2026vlacorrector,\n  title={VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon},\n  author={Yi Pan and Miao Pan and Qi Lu and Jiaming Huang and Man Zhang and Siteng Huang and Xin Li and Jie Zhang and Yongliang Shen and Xuhong Zhang and Wenqi Zhang},\n  year={2026},\n  booktitle={Advances in Neural Information Processing Systems},\n  note={Poster; preprint arXiv:2607.01804},\n  eprint={2607.01804},\n  archivePrefix={arXiv},\n  primaryClass={cs.RO},\n  url={https://arxiv.org/abs/2607.01804}\n}",
+    "openreview_id": "ro5UbANNbJ"
+  },
+  {
+    "id": "lKyhn7Wwl4",
+    "openreview_id": "lKyhn7Wwl4",
+    "title": "Pocket-Aware Peptide Conformation Generation via Tokenization and Diffusion Model",
+    "authors": [
+      "Qiaozhen Meng",
+      "Yinhe Chen",
+      "Shicheng Liang",
+      "Yi Pan",
+      "Fei Guo"
+    ],
+    "date": "2025-01-23",
+    "year": 2025,
+    "venue": "Research manuscript",
+    "status": "Submitted to ICML 2025",
+    "summary": "Peptide conformation generation using tokenization and a diffusion model.",
+    "tags": [
+      "Generative models"
+    ],
+    "url": "https://openreview.net/forum?id=lKyhn7Wwl4",
+    "links": [
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=lKyhn7Wwl4"
+      },
+      {
+        "label": "Coauthor page",
+        "url": "https://yinheee.pages.dev/about/"
+      }
+    ],
+    "bibtex": "@misc{lKyhn7Wwl4,\n  title={Pocket-Aware Peptide Conformation Generation via Tokenization and Diffusion Model},\n  author={Qiaozhen Meng and Yinhe Chen and Shicheng Liang and Yi Pan and Fei Guo},\n  year={2025},\n  note={Research manuscript; Submitted to ICML 2025},\n  url={https://openreview.net/forum?id=lKyhn7Wwl4}\n}"
+  }
+]

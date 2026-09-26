@@ -1,0 +1,44 @@
+locale: en-US
+site_theme: default
+title: Yi Pan
+name: Yi Pan
+description: "Research in WAM, vision-language-action models, world models, and embodied intelligence."
+url: "https://yipan-eclab.github.io"
+baseurl: ""
+repository: "YiPan-ECLab/YiPan-ECLab.github.io"
+timezone: Asia/Shanghai
+author:
+  name: Yi Pan
+  bio: MS student · Artificial Intelligence
+  avatar: ""
+  email: panyi0304@gmail.com
+  openreview: "https://openreview.net/profile?id=~Yi_Pan9"
+  github: "YiPan-ECLab"
+  employer: Zhejiang University
+include: [_pages]
+exclude: [vendor, work, scripts, tests, .bundle, .github, Gemfile, Gemfile.lock, README.md, TEMPLATE.md, SOURCES.md, AGENTS.md, LICENSE, node_modules, package.json, package-lock.json]
+collections:
+  publications:
+    output: true
+    permalink: /publications/:path/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: research
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins: [jekyll-sitemap, jekyll-feed, jekyll-redirect-from]
+atom_feed:
+  hide: true
+analytics:
+  provider: false
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

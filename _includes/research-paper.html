@@ -1,0 +1,10 @@
+{% assign paper = include.paper %}
+<article class="paper" data-search="{{ paper.title | append: ' ' | append: paper.authors | join: ' ' | append: ' ' | append: paper.tags | join: ' ' | downcase | escape }}">
+  <div class="paper-year">{{ paper.year }}</div>
+  <div class="paper-body"><div class="paper-meta"><span class="venue-label">{{ paper.venue | escape }}</span>{% if paper.status %}<span>{{ paper.status | escape }}</span>{% endif %}</div>
+  <h3><a href="{{ paper.url }}">{{ paper.title | escape }}</a></h3>
+  <p class="paper-authors">{% for author in paper.authors %}{% if author == site.author.name %}<strong>{{ author }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+  {% if paper.summary %}<p class="paper-summary">{{ paper.summary | escape }}</p>{% endif %}
+  <div class="paper-links">{% for link in paper.links %}<a href="{{ link.url }}">{{ link.label }} <span aria-hidden="true">↗</span></a>{% endfor %}{% if paper.bibtex %}<details class="bibtex"><summary>BibTeX</summary><pre><code>{{ paper.bibtex | escape }}</code></pre><button type="button" class="copy-bib" hidden>Copy citation</button><span class="copy-status" role="status"></span></details>{% endif %}</div>
+  </div>
+</article>
