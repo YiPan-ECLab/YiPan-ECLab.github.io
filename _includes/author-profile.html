@@ -3,7 +3,9 @@
   <div class="author__content"><h2 class="author__name" itemprop="name">{{ site.author.name }}</h2><p class="author__bio">{{ site.author.employer }}</p><p class="author__role">M.S. student<br>Artificial Intelligence</p></div>
   <div class="author__urls-wrapper"><ul class="author__urls social-icons">
     <li class="profile-email"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+    {% if site.author.email_secondary %}<li class="profile-email"><a href="mailto:{{ site.author.email_secondary }}">{{ site.author.email_secondary }}</a></li>{% endif %}
     <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+    {% if site.author.email_secondary %}<li><a href="mailto:{{ site.author.email_secondary }}"><i class="fas fa-fw fa-university" aria-hidden="true"></i> ZJU Email</a></li>{% endif %}
     <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
     <li><a href="{{ site.author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
     <li><a href="{{ site.author.openreview }}"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> OpenReview</a></li>

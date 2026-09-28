@@ -23,7 +23,7 @@ layout: default
 <section id="publications" class="home-section">
   <h2><span aria-hidden="true">📝</span> Publications &amp; Manuscripts</h2>
   <div class="publication-tools" hidden><label class="visually-hidden" for="paper-search">Search publications</label><input type="search" id="paper-search" placeholder="Search publications…" autocomplete="off"><span id="result-count" role="status" aria-live="polite"></span></div>
-  <div class="publication-list">{% assign papers = site.data.publications | sort: 'date' | reverse %}{% for paper in papers %}{% include research-paper.html paper=paper %}{% endfor %}</div>
+  <div class="publication-list">{% for paper in site.data.publications %}{% include research-paper.html paper=paper %}{% endfor %}</div>
   <p id="no-results" hidden>No publications match your search.</p>
 </section>
 <section id="education" class="home-section">
@@ -34,4 +34,5 @@ layout: default
   <h2>Contact</h2>
   <p>I welcome conversations about world models, robot learning, and embodied intelligence.</p>
   <p>Email: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+  {% if site.author.email_secondary %}<p>ZJU Email: <a href="mailto:{{ site.author.email_secondary }}">{{ site.author.email_secondary }}</a></p>{% endif %}
 </section>

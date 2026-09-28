@@ -9,7 +9,7 @@
 
 - `_config.yml`：姓名、单位、邮箱、OpenReview、GitHub 和 Scholar 链接。
 - `_pages/about.html`：介绍、研究方向、动态、教育和联系方式。
-- `_data/publications.json`：五项工作，完整作者顺序、真实发表状态、链接及 BibTeX。
+- `_data/publications.json`：五项工作，按数组顺序展示（VLA-Rolling 为第二篇），含完整作者顺序、真实发表状态、链接及 BibTeX。
 - `_includes/author-profile.html`：侧栏，`_includes/research-paper.html`：论文条目。
 - `assets/css/main.scss`、`_sass/`：AcadHomepage 原始主题样式。
 - `assets/css/homepage.css`、`assets/js/homepage.js`：响应式调整、作者高亮、论文搜索与引用复制。
