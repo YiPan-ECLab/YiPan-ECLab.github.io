@@ -81,5 +81,106 @@
       }
     ],
     "bibtex": "@misc{lKyhn7Wwl4,\n  title={Pocket-Aware Peptide Conformation Generation via Tokenization and Diffusion Model},\n  author={Qiaozhen Meng and Yinhe Chen and Shicheng Liang and Yi Pan and Fei Guo},\n  year={2025},\n  note={Research manuscript; Submitted to ICML 2025},\n  url={https://openreview.net/forum?id=lKyhn7Wwl4}\n}"
+  },
+  {
+    "id": "EhaPJk4t0Z",
+    "openreview_id": "EhaPJk4t0Z",
+    "title": "VLA-Hallucination: Diagnosing and Mitigating Hallucination Failures in Vision-Language-Action Models",
+    "authors": [
+      "Zhewen Zou",
+      "Miao Pan",
+      "Jiaming Huang",
+      "Sicheng He",
+      "Yi Pan",
+      "Jie Zhang",
+      "Zeke Wang",
+      "Jun Zhang",
+      "Wenqi Zhang",
+      "Xuhong Zhang"
+    ],
+    "date": "2026-09-19",
+    "year": 2026,
+    "venue": "ICLR 2027",
+    "status": "Conference submission",
+    "summary": "Diagnosing and mitigating hallucination failures in vision-language-action models.",
+    "tags": [
+      "VLA"
+    ],
+    "url": "https://openreview.net/forum?id=EhaPJk4t0Z",
+    "links": [
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=EhaPJk4t0Z"
+      }
+    ],
+    "bibtex": "@misc{EhaPJk4t0Z,\n  title={VLA-Hallucination: Diagnosing and Mitigating Hallucination Failures in Vision-Language-Action Models},\n  author={Zhewen Zou and Miao Pan and Jiaming Huang and Sicheng He and Yi Pan and Jie Zhang and Zeke Wang and Jun Zhang and Wenqi Zhang and Xuhong Zhang},\n  year={2026},\n  note={ICLR 2027; Conference submission},\n  url={https://openreview.net/forum?id=EhaPJk4t0Z}\n}"
+  },
+  {
+    "id": "i5pWIOWneZ",
+    "openreview_id": "i5pWIOWneZ",
+    "title": "VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse",
+    "authors": [
+      "Sicheng He",
+      "Yi Pan",
+      "Qiuting Yu",
+      "Jiaming Huang",
+      "Qi Lu",
+      "Shuyan Wu",
+      "Hongyan Feng",
+      "Xuanyu Liu",
+      "Jun Zhang",
+      "Jie Zhang",
+      "Wenqi Zhang",
+      "Xuhong Zhang",
+      "Jianwei Yin"
+    ],
+    "date": "2026-09-18",
+    "year": 2026,
+    "venue": "ICLR 2027",
+    "status": "Conference submission",
+    "summary": "Adaptive action reuse for reducing denoising steps in vision-language-action control.",
+    "tags": [
+      "VLA"
+    ],
+    "url": "https://openreview.net/forum?id=i5pWIOWneZ",
+    "links": [
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=i5pWIOWneZ"
+      }
+    ],
+    "bibtex": "@misc{i5pWIOWneZ,\n  title={VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse},\n  author={Sicheng He and Yi Pan and Qiuting Yu and Jiaming Huang and Qi Lu and Shuyan Wu and Hongyan Feng and Xuanyu Liu and Jun Zhang and Jie Zhang and Wenqi Zhang and Xuhong Zhang and Jianwei Yin},\n  year={2026},\n  note={ICLR 2027; Conference submission},\n  url={https://openreview.net/forum?id=i5pWIOWneZ}\n}"
+  },
+  {
+    "id": "I8H3JbqfDh",
+    "openreview_id": "I8H3JbqfDh",
+    "title": "VLA-Δ: Learning Physical State Transition for Vision-Language-Action Models",
+    "authors": [
+      "Qi Lu",
+      "Jiarun Li",
+      "Ce Zhang",
+      "Miao Pan",
+      "Yi Pan",
+      "Xu Wang",
+      "Wenqi Zhang",
+      "Xuhong Zhang"
+    ],
+    "date": "2026-09-13",
+    "year": 2026,
+    "venue": "ICLR 2027",
+    "status": "Conference submission",
+    "summary": "Learning physical state transitions for vision-language-action models.",
+    "tags": [
+      "VLA",
+      "World models"
+    ],
+    "url": "https://openreview.net/forum?id=I8H3JbqfDh",
+    "links": [
+      {
+        "label": "OpenReview",
+        "url": "https://openreview.net/forum?id=I8H3JbqfDh"
+      }
+    ],
+    "bibtex": "@misc{I8H3JbqfDh,\n  title={VLA-Δ: Learning Physical State Transition for Vision-Language-Action Models},\n  author={Qi Lu and Jiarun Li and Ce Zhang and Miao Pan and Yi Pan and Xu Wang and Wenqi Zhang and Xuhong Zhang},\n  year={2026},\n  note={ICLR 2027; Conference submission},\n  url={https://openreview.net/forum?id=I8H3JbqfDh}\n}"
   }
 ]

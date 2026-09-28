@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / '_site'
 papers = json.loads((ROOT / '_data/publications.json').read_text())
 assert papers, 'Publication list is empty'
+assert (SITE / 'index.html').exists(), 'Build the site before validation'
 assert len({p['id'] for p in papers}) == len(papers), 'Duplicate publication IDs'
 for paper in papers:
     assert 'Yi Pan' in paper['authors'], f"Author mismatch: {paper['title']}"
@@ -53,4 +54,9 @@ if draft_path.exists():
             assert not any(i in text for i in draft_ids), f'Draft content in published output: {file}'
 assert not (SITE / 'work').exists(), 'Local drafts must be excluded'
 assert not (SITE / 'SOURCES.md').exists(), 'Internal source notes should not be rendered'
+home = (SITE / 'index.html').read_text()
+for paper in papers:
+    assert f'id="paper-{paper["id"]}"' in home, f'Missing paper: {paper["id"]}'
+assert home.count('<strong class="author-highlight">Yi Pan</strong>') == len(papers), 'Each author list must highlight Yi Pan once'
+assert home.count('<span class="paper-status">Conference submission</span>') == sum(p.get('status') == 'Conference submission' for p in papers), 'Submission labels must be retained'
 print(f'PASS: {len(papers)} public papers; author/date/URL checks, local links, anchors, and draft isolation.')

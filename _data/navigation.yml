@@ -1,9 +1,13 @@
 main:
-  - title: About
+  - title: About Me
     url: /#about
   - title: Research
     url: /#research
+  - title: News
+    url: /#news
   - title: Publications
     url: /#publications
+  - title: Education
+    url: /#education
   - title: Contact
     url: /#contact

@@ -11,12 +11,13 @@ author:
   name: Yi Pan
   bio: MS student · Artificial Intelligence
   avatar: ""
+  googlescholar: "https://scholar.google.com/citations?user=ecJFt9sAAAAJ&hl=en"
   email: panyi0304@gmail.com
   openreview: "https://openreview.net/profile?id=~Yi_Pan9"
   github: "YiPan-ECLab"
   employer: Zhejiang University
 include: [_pages]
-exclude: [vendor, work, scripts, tests, .bundle, .github, Gemfile, Gemfile.lock, README.md, TEMPLATE.md, SOURCES.md, AGENTS.md, LICENSE, node_modules, package.json, package-lock.json]
+exclude: [vendor, work, scripts, tests, .bundle, .github, Gemfile, Gemfile.lock, README.md, TEMPLATE.md, SOURCES.md, AGENTS.md, LICENSE, LICENSE.acadhomepage, node_modules, package.json, package-lock.json]
 collections:
   publications:
     output: true
@@ -25,7 +26,7 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: research
+      layout: default
 markdown: kramdown
 highlighter: rouge
 kramdown:

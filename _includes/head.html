@@ -1,11 +1,11 @@
 <meta charset="utf-8">
-<title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
-<meta name="description" content="{{ page.description | default: site.description | escape }}">
+<title>Yi Pan - Homepage</title>
+<meta name="description" content="{{ site.description | escape }}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:type" content="website">
-<meta property="og:title" content="{{ site.title | escape }} · Embodied Intelligence">
+<meta property="og:title" content="Yi Pan - Homepage">
 <meta property="og:description" content="{{ site.description | escape }}">
-{% if site.url != '' %}<link rel="canonical" href="{{ page.url | absolute_url }}">{% endif %}
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
-<script>try{document.documentElement.dataset.theme=localStorage.getItem('yi-pan-theme')||'light'}catch(e){}</script>
+<link rel="stylesheet" href="{{ '/assets/css/homepage.css' | relative_url }}">

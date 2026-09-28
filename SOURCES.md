@@ -2,7 +2,8 @@
 
 Verified 2026-09-26.
 
-- Academic Pages: https://github.com/academicpages/academicpages.github.io
+- AcadHomepage: https://github.com/RayeRen/acad-homepage.github.io
+  Reference site https://zwq2018.github.io/ uses a fork of this template.
   Template commit and license are recorded in TEMPLATE.md and LICENSE.
 - OpenReview author profile: https://openreview.net/profile?id=~Yi_Pan9
   Verified name, preferred public email, education dates, author order, and displayed venue labels.
@@ -23,3 +24,14 @@ The paper summaries do not claim new results beyond their source titles / public
 No acceptance is inferred from a submission label. No author contribution symbols are invented.
 The 2029 graduation date is marked expected. A monogram is used until a portrait is supplied.
 OpenReview forum links may require sign-in; the public arXiv and project links remain available.
+
+Update 2026-09-28: The user explicitly authorized publication of the three ICLR 2027
+submissions. Their titles, full author order and submission status were read from
+the authenticated OpenReview profile on 2026-09-26:
+
+- VLA-Hallucination: https://openreview.net/forum?id=EhaPJk4t0Z
+- VLA-Rolling: https://openreview.net/forum?id=i5pWIOWneZ
+- VLA-Δ: https://openreview.net/forum?id=I8H3JbqfDh
+
+These are displayed as conference submissions, not accepted papers. Yi Pan is
+highlighted in every author list without adding unverified contribution symbols.
